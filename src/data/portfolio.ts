@@ -171,19 +171,6 @@ export const projects: Project[] = [
     stack: ["Gemini", "LangChain", "GCP", "CloudSQL", "AlloyDB", "Python APIs"],
   },
   {
-    title: "TPBank GenAI Chatbot",
-    category: "GenAI / RAG",
-    subtitle: "Fine-tuned Gemini chatbot with RAG and monitoring",
-    description:
-      "Developed a customer-support chatbot using Vertex AI Gemini, embeddings, RAG, CloudSQL, FastAPI, BigQuery logging, and Looker analytics.",
-    impact: [
-      "Handled around 80% of queries automatically",
-      "Reduced support ticket load by around 30%",
-      "Built monitoring for latency, retrieval quality, and feedback",
-    ],
-    stack: ["Vertex AI", "Gemini", "CloudSQL", "FastAPI", "BigQuery", "Looker"],
-  },
-  {
     title: "Drug Demand Forecasting",
     category: "Data Science",
     subtitle: "Forecasting for around 1,000 Japanese drugstores",
