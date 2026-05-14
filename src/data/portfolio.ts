@@ -60,7 +60,43 @@ export const projectCategories: ProjectCategory[] = [
 ];
 
 export const projects: Project[] = [
-  {
+    {
+        title: "WortWander",
+        category: "Backend / SaaS",
+        subtitle: "Full-stack German vocabulary learning app",
+        description:
+          "A full-stack German vocabulary learning app with vocabulary management, collections, starred words, flashcards, MCQ practice, learning statistics, and AI-assisted example generation.",
+        impact: [
+          "Built full-stack vocabulary learning workflow",
+          "Integrated React frontend with FastAPI backend",
+          "Added flashcards, quiz, collections, and progress tracking",
+        ],
+        stack: [
+          "React",
+          "TypeScript",
+          "Vite",
+          "FastAPI",
+          "SQLModel",
+          "SQLite",
+          "Docker",
+          "Vercel",
+        ],
+        links: [
+          {
+            label: "Live Demo",
+            href: "https://vobcabulary-learning-app-fe.vercel.app",
+          },
+          {
+            label: "Frontend",
+            href: "https://github.com/tuanTaAnh/vobcabulary-learning-app-fe",
+          },
+          {
+            label: "Backend",
+            href: "https://github.com/tuanTaAnh/vobcabulary-learning-app-be",
+          },
+        ],
+    },
+    {
     title: "Sovra Platform",
     category: "Backend / SaaS",
     subtitle: "Full-stack SaaS prototype with AI-ready architecture",
@@ -88,17 +124,17 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: "Bengo Legal AI Workflow",
-    category: "GenAI / RAG",
-    subtitle: "AI-assisted divorce case processing for legal teams",
+    title: "Churn Prediction on GCP",
+    category: "Data Science",
+    subtitle: "Banking churn model with MLOps and explainability",
     description:
-      "Built GenAI/RAG workflows to classify cases, extract facts, timelines, claims, evidence, and support citation-grounded legal drafting.",
+      "Built churn prediction models for banking services using feature engineering, WoE encoding, XGBoost, Vertex AI tuning, BigQuery ML, and Looker dashboards.",
     impact: [
-      "Structured raw legal documents into reusable case data",
-      "Retrieval-guided drafting with Gemini + LangChain",
-      "Designed APIs for intake, extraction, and drafting support",
+      "Processed around 400,000 customers monthly",
+      "Optimized recall and F1 for retention campaigns",
+      "Explained predictions with SHAP-based dashboards",
     ],
-    stack: ["Gemini", "LangChain", "GCP", "CloudSQL", "AlloyDB", "Python APIs"],
+    stack: ["Python", "SQL", "XGBoost", "BigQuery ML", "Vertex AI", "Looker"],
   },
   {
     title: "Numoloo AI Calling Platform",
@@ -122,6 +158,19 @@ export const projects: Project[] = [
     ],
   },
   {
+    title: "Bengo Legal AI Workflow",
+    category: "GenAI / RAG",
+    subtitle: "AI-assisted divorce case processing for legal teams",
+    description:
+      "Built GenAI/RAG workflows to classify cases, extract facts, timelines, claims, evidence, and support citation-grounded legal drafting.",
+    impact: [
+      "Structured raw legal documents into reusable case data",
+      "Retrieval-guided drafting with Gemini + LangChain",
+      "Designed APIs for intake, extraction, and drafting support",
+    ],
+    stack: ["Gemini", "LangChain", "GCP", "CloudSQL", "AlloyDB", "Python APIs"],
+  },
+  {
     title: "TPBank GenAI Chatbot",
     category: "GenAI / RAG",
     subtitle: "Fine-tuned Gemini chatbot with RAG and monitoring",
@@ -133,19 +182,6 @@ export const projects: Project[] = [
       "Built monitoring for latency, retrieval quality, and feedback",
     ],
     stack: ["Vertex AI", "Gemini", "CloudSQL", "FastAPI", "BigQuery", "Looker"],
-  },
-  {
-    title: "Churn Prediction on GCP",
-    category: "Data Science",
-    subtitle: "Banking churn model with MLOps and explainability",
-    description:
-      "Built churn prediction models for banking services using feature engineering, WoE encoding, XGBoost, Vertex AI tuning, BigQuery ML, and Looker dashboards.",
-    impact: [
-      "Processed around 400,000 customers monthly",
-      "Optimized recall and F1 for retention campaigns",
-      "Explained predictions with SHAP-based dashboards",
-    ],
-    stack: ["Python", "SQL", "XGBoost", "BigQuery ML", "Vertex AI", "Looker"],
   },
   {
     title: "Drug Demand Forecasting",
