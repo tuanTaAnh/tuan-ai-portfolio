@@ -60,6 +60,39 @@ export const projectCategories: ProjectCategory[] = [
 ];
 
 export const projects: Project[] = [
+      {
+        title: "PipeForge",
+        category: "GenAI / RAG",
+        subtitle: "LLM-powered data pipeline builder",
+        description:
+          "A data pipeline builder that turns natural-language analytics requests into SQL queries, data product drafts, tests, documentation, and executable pipeline outputs.",
+        impact: [
+          "Built LLM-driven request planning and human-in-the-loop clarification",
+          "Generated dbt-style SQL artifacts with OpenHands-based agents",
+          "Added validation, targeted repair, pipeline execution, and real-time trace visualization",
+        ],
+        stack: [
+          "LLM Agents",
+          "OpenHands",
+          "FastAPI",
+          "React",
+          "TypeScript",
+          "SQLite",
+          "SQL Validation",
+          "Docker",
+          "Hugging Face",
+        ],
+        links: [
+          {
+            label: "Live Demo",
+            href: "https://anhtuan19981998-pipeforge-demo.hf.space",
+          },
+          {
+            label: "Repository",
+            href: "https://github.com/tuanTaAnh/pipeforge-capstone",
+          },
+        ],
+      },
     {
         title: "WortWander",
         category: "Backend / SaaS",
